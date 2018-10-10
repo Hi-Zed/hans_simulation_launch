@@ -1,0 +1,15 @@
+material Tag2/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tag_cube_2.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

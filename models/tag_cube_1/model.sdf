@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="tag_cube_1">
+    <link name="link">
+      <pose>0 0 0.3 0 0 0</pose>
+      <collision name="collision">
+                <geometry>
+                    <box>
+                        <size>.5 .5 .5</size>
+                    </box>
+                </geometry>
+      </collision>
+      <visual name="visual">
+                <geometry>
+                    <box>
+                        <size>.5 .5 .5</size>
+                    </box>
+                </geometry>
+        <material>
+          <script>
+            <uri>model://tag_cube_1/materials/scripts</uri>
+            <uri>model://tag_cube_1/materials/textures</uri>
+            <name>Tag1/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
